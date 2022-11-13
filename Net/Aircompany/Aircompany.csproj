@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Aircompany</RootNamespace>
     <AssemblyName>Aircompany</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,13 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Airport.cs" />
-    <Compile Include="Models\ClassificationLevel.cs" />
-    <Compile Include="Models\ExperimentalTypes.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Models\MilitaryType.cs" />
     <Compile Include="Planes\MilitaryPlane.cs" />
     <Compile Include="Planes\PassengerPlane.cs" />
     <Compile Include="Planes\Plane.cs" />
-    <Compile Include="Runner.cs" />
+    <Compile Include="PlaneRegistry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
